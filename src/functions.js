@@ -62,7 +62,7 @@ let products = [
 
 addToCart4(products)
 
-function add(bisey,...numbers) { //rest
+function add(bisey,...numbers) { //rest 
     let total = 0;
     for (let i = 0; i < numbers.length; i++) {
         total = total + numbers[i]
